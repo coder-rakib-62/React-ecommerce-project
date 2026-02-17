@@ -14,15 +14,37 @@ const Navbar = () => {
           <div>
             <img src={Logo} alt="" />
           </div>
-          <ul className="flex gap-12">
-            <li>Home</li>
-            <li>Contact</li>
-            <li>About </li>
-            <li>Sign Up</li>
+          <ul className="flex gap-12 relative">
+            <li>
+              <a href="" className="under">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="" className="under">
+                Contact
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="" className="under">
+                About
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="" className="under">
+                Sign Up
+              </a>
+            </li>
           </ul>
           <Flex className="items-center gap-6">
             <div className="relative">
-              <input type="text" className="py-2.5 px-5 pr-17.5 bg-[#F5F5F5]" placeholder="What are you looking for?" />
+              <input
+                type="text"
+                className="py-2.5 px-5 pr-17.5 bg-[#F5F5F5]"
+                placeholder="What are you looking for?"
+              />
               <FaMagnifyingGlass className="absolute top-3 right-3" />
             </div>
             <Flex className="items-center text-3xl gap-4">

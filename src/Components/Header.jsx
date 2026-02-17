@@ -15,11 +15,11 @@ const Header = () => {
             </p>
           </div>
           <div className="w-[20%] flex justify-end">
-            <select name="language" className="text-white bg-black">
-              <option value="English">English</option>
-              <option value="Bangla">Bangla</option>
-              <option value="Hindi">Hindi</option>
-              <option value="Arabic">Arabic</option>
+            <select name="language" className="text-white ">
+              <option value="English" className="text-black">English</option>
+              <option value="Bangla" className="text-black">Bangla</option>
+              <option value="Hindi" className="text-black">Hindi</option>
+              <option value="Arabic" className="text-black">Arabic</option>
             </select>
           </div>
         </Flex>

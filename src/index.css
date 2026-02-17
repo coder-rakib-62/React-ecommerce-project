@@ -6,8 +6,32 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1170px;
+  --color-primary: #db4444;
 }
 
-@utility container {
+@utility ontainer {
   margin-inline: auto;
+}
+li {
+  position: relative;
+}
+.under::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transition: all linear 0.3s;
+}
+.under:hover::after {
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+.slick-dots .slick-active div {
+  background: red;
+  border: 2px solid #fff;
 }
