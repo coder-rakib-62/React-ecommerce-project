@@ -15,28 +15,26 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     appendDots: (dots) => (
-      <div 
-        className=""
-        
-      >
-        <ul style={{ margin: "0px" }} className="absolute -top-16.25 left-88"> {dots} </ul>
+      <div className="">
+        <ul style={{ margin: "0px" }} className="absolute -top-16.25 left-88">
+          {" "}
+          {dots}{" "}
+        </ul>
       </div>
     ),
     customPaging: (i) => (
-      <div      
-        className="w-3.5 h-3.5 rounded-full bg-gray-400"
-      >
+      <div className="w-3.5 h-3.5 rounded-full bg-gray-400">
         {/* {i + 1} */}
       </div>
     ),
-    };
+  };
   return (
     <>
       <nav className="border-t border-gray-400">
         <Container>
           <Flex>
             <div className="border-r border-gray-400">
-              <ul className="flex flex-col gap-y-4 w-54.25  pr-5.5 pt-10">
+              <ul className="flex flex-col gap-y-4 w-54.25  pr-5.5 pt-10 font-poppins font-normal">
                 <li className="flex justify-between items-center">
                   Woman’s Fashion <MdKeyboardArrowRight />
                 </li>
@@ -52,7 +50,7 @@ const Banner = () => {
                 <li>Health & Beauty</li>
               </ul>
             </div>
-            <div className="w-full ml-12.5 mt-10">
+            <div className="w-full   ml-12.5 mt-10">
               <Slider {...settings}>
                 <div>
                   <img src={BannerImg} alt="" />

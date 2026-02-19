@@ -14,7 +14,7 @@ const Navbar = () => {
           <div>
             <img src={Logo} alt="" />
           </div>
-          <ul className="flex gap-12 relative">
+          <ul className="flex gap-12 relative font-poppins font-normal">
             <li>
               <a href="" className="under">
                 Home
@@ -42,7 +42,7 @@ const Navbar = () => {
             <div className="relative">
               <input
                 type="text"
-                className="py-2.5 px-5 pr-17.5 bg-[#F5F5F5]"
+                className="py-2.5 px-5 pr-17.5 bg-[#F5F5F5] font-poppins font-normal"
                 placeholder="What are you looking for?"
               />
               <FaMagnifyingGlass className="absolute top-3 right-3" />
