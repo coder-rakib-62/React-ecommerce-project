@@ -30,7 +30,7 @@ const Banner = () => {
   };
   return (
     <>
-      <nav className="border-t border-gray-400">
+      <nav className="border-t border-gray-400 ">
         <Container>
           <Flex>
             <div className="border-r border-gray-400">
