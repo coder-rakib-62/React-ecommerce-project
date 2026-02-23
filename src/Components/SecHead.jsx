@@ -1,6 +1,7 @@
 import React from "react";
 import { TiThLarge } from "react-icons/ti";
 
+
 const SecHead = ({ title, heading }) => {
   return (
     <div>
